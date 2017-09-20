@@ -19,3 +19,5 @@ copyright: 		Copyright 2014 Indiqo.
 
 # Build Settings
 permalinks: 	pretty
+
+plugins: [Jekyll-paginate]
