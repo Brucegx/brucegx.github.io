@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bruce's Blog</title>
-    <description>A beautifully contemporary and elegant Jekyll theme</description>
+    <description>This is Bruce Guo personal blog. A software engineer who is inerested in Full Stack, OOD, Java technique.</description>
     <link></link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
     
