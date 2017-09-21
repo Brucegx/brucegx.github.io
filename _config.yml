@@ -3,7 +3,9 @@ baseurl: 		""
 title: 			Bruce's Blog
 
 name: 			Bruce's Blog
-description: 	A beautifully contemporary and elegant Jekyll theme
+# Short description (goes below the title; it will also be used in the RSS feed)
+# It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+description: 	This is Bruce Guo personal blog. A software engineer who is inerested in Full Stack, OOD, Java technique.
 url: 			"https://brucegx.github.io/"
 
 paginate: 		3
@@ -15,7 +17,7 @@ email: 			hello@indiqo.eu
 disqus: 		your_disqus_shortname
 analytics: 		UA-XXXXXXX-Y
 
-copyright: 		Copyright 2014 Indiqo.	
+copyright: 		Copyright 2017 Bruce Guo.		
 
 # Build Settings
 permalinks: 	pretty
