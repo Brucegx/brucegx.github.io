@@ -1,13 +1,14 @@
 ---
 
 layout:			default
-title:  		About this theme
+title:  		My Project
 type:			page
 navigation: 	true
 
 date:   		2017-09-18
-excerpt: 		Don't let yourself be fooled by the <b>minimal and tidy overall appearance</b> of this theme — <i>you might be surprised what's included</i>.
-gradient: 		2
+excerpt: 		The following are my projects with range of <b> JavaScript development, Software-Defined Network and Manchine Learning</b>. <i> You can go into details when you check my source code in my github</i>.
+
+gradient: 		5
 image: 			header-2.jpg
 
 ---
