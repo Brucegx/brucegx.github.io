@@ -1,6 +1,6 @@
 ---
 
-layout:			default
+layout:		default
 title:  		My Project
 type:			page
 navigation: 	true
@@ -13,78 +13,29 @@ image: 			header-2.jpg
 
 ---
 
-## Minimal & Responsive Design
+## **JavaScript Development**
 
-Based upon a solid grid and designed with **simplicity and focus on typography** in mind, the entire design follows a clean and minimal design philosphy which is easy on the eyes and doesn't distract from the most important feature of every website: *the content*.
+### Snippetaas(On Process)
+A co-operated program which aim to help programmers reuse snippets. A **full stack** project including **Database Design, back end server built, front end Design**. Now, we are building backend system in PostgreSQL - Sequelize - Node - Express - GraphQL tech stack. <a href="https://github.com/Brucegx/react-toolchain" title="Visit Website">Source Code</a>
 
-*Clear shapes, sharp edges and flat shades* create a contemporary and pleasant overall appearance.
+### Simple Web Server Built
+Project as a preparation for Snippetaas. Designed database schema in PostgreSQL and modelized to objects with RESTful. Built web server supporting easy data access from fornt-end side by Express.<a href="https://github.com/Brucegx/simple-node-sever" title="Visit Website">Source Code</a>
 
-A responsive design concept applied to every aspect of the theme ensures that it adapts seamlessly to a wide variety of devices and screen resolutions.
+## **Network** 
 
-### Subtile Animations
+### Soft-Defined-NetWork Constructure
+Thought this project belongs to a my NYU course, I learned the concept of Software Defined Network and the skills of managing the SDN controller.
 
-Smooth and particularly *barely noticable animations reveal contents in a beautiful way* while scrolling down the page. A feature which is not necessarily required for obvious reasons, but it surely improves the experience a little further.
+Built several different SDN structures by **Python**, flow control like drop, transfer and drop specific package by open virtual switches and openFlow switches. 
 
-### Retina Ready
+Implemented simple word count program with **Mapreduce** on **OpenStack**. <a href="https://github.com/Brucegx/Soft-Defined-Network" title="Visit Website">Source Code</a>
 
-In order to make sure *everything looks crisp on high resolution displays* as well, all images used by the theme itself are **scalable vector graphics (SVG)**.
+## **Manchine Learning**
 
-They may be small in terms of file sizes but can be scaled indefinitely so your website will be able to take advantage of the beauty of those retina displays entirely.
+### Implement Information Processing with Echo State Networks
 
-{% include media-image.html file="feature-retina.jpg" title="SVG's in Sketch 3" caption="Scalable vector graphics created in Sketch 3 look sharp and crisp on any device and the layered Sketch source file is included too" %}
+Idea from a paper published in Natural Science. Achieved using a single dynamical node as ESN instead of traditional reservoir with fixed connections.
 
-### Decent Parallax Scrolling
+{% include media-image.html file="ESN structure.jpg" title="ESN structure" caption="Single node implement Echo State Network through adding delay in circle " %}
 
-Almost invisible at first sight, parallax scrolling applied to big image headers makes them move at a different speed and thus creates an **impression of depth** — tiny details essential for a truly polished look and feel.
-
-### Estimated Reading Duration
-
-It's nice to know how long it will take to read a post upfront. Because of that, there's an indicator on top of every post which provides an estimate.
-
-{% include media-image.html file="feature-estimate-duration.jpg" title="Duration" caption="Estimates are based upon the posts length and calculated automatically" %}
-
-### Clean, Valid HTML5 & CSS3
-
-Clean, optimized, validated & handwritten source code can be taken for granted. **Quality code is just as important as good design** and there's no room for compromises.
-
-In addition to that, the entire theme has been carefully tested to achieve best possible **crossbrowser compatibility** and meet highest requirements and so it works just fine in Internet Explorer 9+, Firefox 4+, Safari 5+, Chrome 14+, Opera 10.6+ as well as on iOS 4+ and Android devices.
-
-### Author Bio & Social Sharing
-
-Optionally add an author bio, social media profile links or dynamically generated sharing buttons to each page via front-matters or leave them out entirely — *it's really up to you*.
-
-{% include media-image.html file="feature-author-share.jpg" title="Author & Sharing" caption="Adding additional information to each post is remarkably easy" %}
-
-### Media Shortcodes
-
-Adding images, videos from [YouTube](http://youtube.com) / [Vimeo](http://vimeo.com) or music from [Soundcloud](http://soundcloud.com) is remarkably simple with **shortcodes you can use literally anywhere**. Even better, they also support custom captions and adapt to smaller resolutions seamlessly.
-
-{% include media-image.html file="feature-media-shortcodes.jpg" title="Shortcodes" caption="Add the shortcode and url, optionally a few details and you're good to go" %}
-
-### Disqus Comments
-
-A third-party **comment system powered by Disqus** comes with the theme — just add your username to the config file and you're ready to let the comments roll in.
-
-{% include media-image.html file="feature-comments.jpg" title="Comments" caption="Comments are powered by Disqus — just sign up, add your username to the _config file" link="http://disqus.com" %}
-
-### Syntax Highlighting
-
-Embedding pieces of code every now and then is essential. Fortunately *Hashtag for Jekyll* supports syntax highlighting by default.
-
-{% highlight ruby %}
-
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-
-{% endhighlight %}
-
-### Much More
-
-Those features above are just the tip of the iceberg and there's much more included. 
-
-Things like support for **Google Analytics & Web Fonts**, advanced **pagination** on overview pages, a custom **teaser of the next article** at the bottom of each post, **Twitter Cards & Facebook Open Graph** tags dynamically generated, multiple page types, etc.
-
-**Hope you like it!**
+Evaluated model performance of classification via k-fold cross-validation by WEKA and got excellent performance in twotime series prediction benchmarks.
